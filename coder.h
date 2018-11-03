@@ -1,15 +1,3 @@
-/*
- * coder.h
- *
- *  Created for: GlobalLogic Basecamp
- *       Author: vitalii.lysenko
- *
- * Coder class header.
- *
- * You have to change this file to fix build errors, and make
- * the unit tests passed.
- *
- */
 
 #ifndef CODER_H
 #define CODER_H
@@ -19,11 +7,6 @@
 #include <iostream>
 #include <cstring>
 #include <cmath>
- /*
-  * This function was pre-compiled and is provided as a part of the
-  * static library.
-  *
-  */
 void encode(char* buf, int size);
 
 #pragma pack(push, 1)
